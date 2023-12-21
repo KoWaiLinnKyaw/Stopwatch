@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+    text-shadow: -5px -5px 5px black;
+    font-size: 50px;
+    color: red;
+    letter-spacing: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.timer {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -10px -10px 10px black;
+    color: white;
+    font-weight: bold;
+}
+
+.start, .stop, .reset {
+    border-radius: 50%;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    border: none;
+    box-shadow: -10px -10px 10px black;
+}
+
+.start {
+    background-color: green;
+}
+
+.stop {
+    background-color: red;
+}
+
+.reset {
+    background-color: blue;
+}
+
+.start:active, .stop:active, .reset:active {
+    background-color: black;
+}
